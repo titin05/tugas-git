@@ -1,0 +1,115 @@
+
+Computer Shop@DESKTOP-9UA1V77 MINGW64 ~ (master)
+$ cd /d
+
+Computer Shop@DESKTOP-9UA1V77 MINGW64 /d
+$ mkdir git-basic
+
+Computer Shop@DESKTOP-9UA1V77 MINGW64 /d
+$ ls
+'$RECYCLE.BIN'/          git-basic/  'System Volume Information'/   titin.taf       titin-taf/
+ ammant/                 kiya/       'titin adrina f'/              titin.taf.bak  'tuges titin.txt'
+ file/                   musik/      'titin adrina febrianti'/      titin-ad/
+ git-and-github-titin/  'new 1.txt'  'titin folder'/                titin-adrina/
+
+Computer Shop@DESKTOP-9UA1V77 MINGW64 /d
+$ cd git-basic
+
+Computer Shop@DESKTOP-9UA1V77 MINGW64 /d/git-basic
+$ ls
+
+Computer Shop@DESKTOP-9UA1V77 MINGW64 /d/git-basic
+$ touch first.txt
+
+Computer Shop@DESKTOP-9UA1V77 MINGW64 /d/git-basic
+$ ls
+first.txt
+
+Computer Shop@DESKTOP-9UA1V77 MINGW64 /d/git-basic
+$ pwd
+/d/git-basic
+
+Computer Shop@DESKTOP-9UA1V77 MINGW64 /d/git-basic
+$ git init
+Initialized empty Git repository in D:/git-basic/.git/
+
+Computer Shop@DESKTOP-9UA1V77 MINGW64 /d/git-basic (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        first.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Computer Shop@DESKTOP-9UA1V77 MINGW64 /d/git-basic (master)
+$ git add .
+
+Computer Shop@DESKTOP-9UA1V77 MINGW64 /d/git-basic (master)
+$ git commit -m "adding first.txt"
+[master (root-commit) 4023d72] adding first.txt
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 first.txt
+
+Computer Shop@DESKTOP-9UA1V77 MINGW64 /d/git-basic (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Computer Shop@DESKTOP-9UA1V77 MINGW64 /d/git-basic (master)
+$ git log
+commit 4023d724123ad9e95262bc33f2671409df7a1633 (HEAD -> master)
+Author: titin.taf <titinadrina.taf@gmail.com>
+Date:   Thu Feb 3 23:51:34 2022 -0800
+
+    adding first.txt
+
+Computer Shop@DESKTOP-9UA1V77 MINGW64 /d/git-basic (master)
+$ touch second.txt
+
+Computer Shop@DESKTOP-9UA1V77 MINGW64 /d/git-basic (master)
+$ git add .
+
+Computer Shop@DESKTOP-9UA1V77 MINGW64 /d/git-basic (master)
+$ git commit -m "adding second.txt"
+[master e51b906] adding second.txt
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 second.txt
+
+Computer Shop@DESKTOP-9UA1V77 MINGW64 /d/git-basic (master)
+$ rm first.txt
+
+Computer Shop@DESKTOP-9UA1V77 MINGW64 /d/git-basic (master)
+$ git add .
+
+Computer Shop@DESKTOP-9UA1V77 MINGW64 /d/git-basic (master)
+$ git commit -m "removing first.txt"
+[master c93bcd5] removing first.txt
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ delete mode 100644 first.txt
+
+Computer Shop@DESKTOP-9UA1V77 MINGW64 /d/git-basic (master)
+$ git log
+commit c93bcd5fdbb7ca4a5d23738841587e852f6df63d (HEAD -> master)
+Author: titin.taf <titinadrina.taf@gmail.com>
+Date:   Thu Feb 3 23:58:46 2022 -0800
+
+    removing first.txt
+
+commit e51b9064e86031f3fbaa313b07b347305803b057
+Author: titin.taf <titinadrina.taf@gmail.com>
+Date:   Thu Feb 3 23:55:29 2022 -0800
+
+    adding second.txt
+
+commit 4023d724123ad9e95262bc33f2671409df7a1633
+Author: titin.taf <titinadrina.taf@gmail.com>
+Date:   Thu Feb 3 23:51:34 2022 -0800
+
+    adding first.txt
+
+Computer Shop@DESKTOP-9UA1V77 MINGW64 /d/git-basic (master)
+$  

@@ -1,0 +1,167 @@
+Computer Shop@DESKTOP-9UA1V77 MINGW64 ~ (master)
+$ cd /d
+
+Computer Shop@DESKTOP-9UA1V77 MINGW64 /d
+$ mkdir titin-T
+
+Computer Shop@DESKTOP-9UA1V77 MINGW64 /d
+$ cd titin-T
+
+Computer Shop@DESKTOP-9UA1V77 MINGW64 /d/titin-T
+$ touch README.md
+
+Computer Shop@DESKTOP-9UA1V77 MINGW64 /d/titin-T
+$ echo "Halo perkenalkan aku halaman utama" > README.md
+
+Computer Shop@DESKTOP-9UA1V77 MINGW64 /d/titin-T
+$ git init
+Initialized empty Git repository in D:/titin-T/.git/
+
+Computer Shop@DESKTOP-9UA1V77 MINGW64 /d/titin-T (master)
+$ git add .
+warning: LF will be replaced by CRLF in README.md.
+The file will have its original line endings in your working directory
+
+Computer Shop@DESKTOP-9UA1V77 MINGW64 /d/titin-T (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   README.md
+
+
+Computer Shop@DESKTOP-9UA1V77 MINGW64 /d/titin-T (master)
+$ git commit -m "Inisialisasi Git Repository"
+[master (root-commit) 0a119b7] Inisialisasi Git Repository
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+
+Computer Shop@DESKTOP-9UA1V77 MINGW64 /d/titin-T (master)
+$ git branch cv
+
+Computer Shop@DESKTOP-9UA1V77 MINGW64 /d/titin-T (master)
+$ git checkout cv
+Switched to branch 'cv'
+
+Computer Shop@DESKTOP-9UA1V77 MINGW64 /d/titin-T (cv)
+$ touch cv.txt
+
+Computer Shop@DESKTOP-9UA1V77 MINGW64 /d/titin-T (cv)
+$ echo "Ini adalah file CV" > cv.txt
+
+Computer Shop@DESKTOP-9UA1V77 MINGW64 /d/titin-T (cv)
+$ git add .
+warning: LF will be replaced by CRLF in cv.txt.
+The file will have its original line endings in your working directory
+
+Computer Shop@DESKTOP-9UA1V77 MINGW64 /d/titin-T (cv)
+$ git status
+On branch cv
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   cv.txt
+
+
+Computer Shop@DESKTOP-9UA1V77 MINGW64 /d/titin-T (cv)
+$ git commit -m "inisialisasi CV"
+[cv e086a21] inisialisasi CV
+ 1 file changed, 1 insertion(+)
+ create mode 100644 cv.txt
+
+Computer Shop@DESKTOP-9UA1V77 MINGW64 /d/titin-T (cv)
+$ git status
+On branch cv
+nothing to commit, working tree clean
+
+Computer Shop@DESKTOP-9UA1V77 MINGW64 /d/titin-T (cv)
+$ pwd
+/d/titin-T
+
+Computer Shop@DESKTOP-9UA1V77 MINGW64 /d/titin-T (cv)
+$ ls
+cv.txt  README.md
+
+Computer Shop@DESKTOP-9UA1V77 MINGW64 /d/titin-T (cv)
+$ echo "PT. sunsilk indonesia" > cv.txt
+
+Computer Shop@DESKTOP-9UA1V77 MINGW64 /d/titin-T (cv)
+$ git add .
+warning: LF will be replaced by CRLF in cv.txt.
+The file will have its original line endings in your working directory
+
+Computer Shop@DESKTOP-9UA1V77 MINGW64 /d/titin-T (cv)
+$ git status
+On branch cv
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   cv.txt
+
+
+Computer Shop@DESKTOP-9UA1V77 MINGW64 /d/titin-T (cv)
+$ git commit -m "pertama"
+[cv 8e07dbc] pertama
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+Computer Shop@DESKTOP-9UA1V77 MINGW64 /d/titin-T (cv)
+$ echo "PT. samsung indonesia" > cv.txt
+
+Computer Shop@DESKTOP-9UA1V77 MINGW64 /d/titin-T (cv)
+$ git add .
+warning: LF will be replaced by CRLF in cv.txt.
+The file will have its original line endings in your working directory
+
+Computer Shop@DESKTOP-9UA1V77 MINGW64 /d/titin-T (cv)
+$ git status
+On branch cv
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   cv.txt
+
+
+Computer Shop@DESKTOP-9UA1V77 MINGW64 /d/titin-T (cv)
+$ git commit -m "kedua"
+[cv c5fe696] kedua
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+Computer Shop@DESKTOP-9UA1V77 MINGW64 /d/titin-T (cv)
+$ echo "PT. indonesia pinter" > cv.txt
+
+Computer Shop@DESKTOP-9UA1V77 MINGW64 /d/titin-T (cv)
+$ git add .
+warning: LF will be replaced by CRLF in cv.txt.
+The file will have its original line endings in your working directory
+
+Computer Shop@DESKTOP-9UA1V77 MINGW64 /d/titin-T (cv)
+$ git status
+On branch cv
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   cv.txt
+
+
+Computer Shop@DESKTOP-9UA1V77 MINGW64 /d/titin-T (cv)
+$ git commit -m "ketiga"
+[cv b698717] ketiga
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+Computer Shop@DESKTOP-9UA1V77 MINGW64 /d/titin-T (cv)
+$ git checkout master
+Switched to branch 'master'
+
+Computer Shop@DESKTOP-9UA1V77 MINGW64 /d/titin-T (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Computer Shop@DESKTOP-9UA1V77 MINGW64 /d/titin-T (master)
+$ ls
+README.md
+
+Computer Shop@DESKTOP-9UA1V77 MINGW64 /d/titin-T (master)
+$ echo "Halo perkenalkan aku halaman utama" > README.md
+
+Computer Shop@DESKTOP-9UA1V77 MINGW64 /d/titin-T (master)
+$                                                                                                                                                                       

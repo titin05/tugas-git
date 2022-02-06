@@ -1,0 +1,12 @@
+1. Perintah yang memungkinkan Anda untuk menghapus file yang tidak dilacak adalah git clean .
+2. -d dan -f adalah memberitahu git untuk menghapus direktori dan file yang tidak terlacak
+3.Sebuah branch (cabang) di Git secara sederhana hanyalah pointer yang dapat bergerak ke salah satu commit. Nama default dari branch dalam Git adalah master . Ketika anda membuat commit di awal, anda diberikan sebuah branch master yang menunjuk ke commit terakhir yang anda buat.
+4. Fast Forward Merge : Penggabungan maju cepat dapat terjadi ketika ada jalur linier dari ujung cabang saat ini ke cabang target. Alih-alih "sebenarnya" menggabungkan cabang, yang harus dilakukan Git untuk mengintegrasikan sejarah adalah memindahkan (yaitu, "maju cepat") ujung cabang saat ini ke ujung cabang target.
+  recursive merge : Rekursif adalah strategi penggabungan default saat menarik atau menggabungkan satu cabang. Selain itu, ini dapat mendeteksi dan menangani penggabungan yang melibatkan penggantian nama, tetapi saat ini tidak dapat menggunakan salinan yang terdeteksi. Ini adalah strategi penggabungan default saat menarik atau menggabungkan satu cabang.
+5.Cara termudah untuk mengganti cabang di Git adalah dengan menggunakan perintah "git checkout" dan tentukan nama cabang yang ingin Anda alihkan.
+Cara cepat untuk mengganti cabang di Git adalah dengan menggunakan perintah “git switch” dan tentukan nama cabang yang ingin Anda alihkan.
+6. rm-rf 
+7. hapus cabang dengan git branch -d <branch> 
+8. Perintah git diff menunjukkan perbedaan antara file dalam dua komit atau antara repositori saat ini dan komit sebelumnya. 
+9. "rm" untuk menghapus file bisa menggunakan "rm-r" atau "rm-d"
+10. pengagabungan dapat di lakukan dengan github
